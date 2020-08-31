@@ -13,3 +13,5 @@ export default async (name = 'default'): Promise<Connection> => {
     }),
   );
 };
+
+/* Assisitir vídeo a partir de 14 min e 30 seg */
