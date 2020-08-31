@@ -15,7 +15,7 @@ export default class CreateTransaction1598878134139 implements MigrationInterfac
                 },
 
                 {
-                    name:'tittle',
+                    name:'title',
                     type:'varchar',
                 },
 

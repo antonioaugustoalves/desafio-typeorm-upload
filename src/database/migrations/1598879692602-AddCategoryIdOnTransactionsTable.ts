@@ -6,6 +6,7 @@ export default class AddCategoryIdOnTransactionsTable1598879692602 implements Mi
         await queryRunner.addColumn('transactions', new TableColumn({
             name:'category_id',
             type:'uuid',
+            isNullable:true
         }));
 
         await queryRunner.createForeignKey('transactions', new TableForeignKey(
