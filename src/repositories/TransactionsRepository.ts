@@ -45,4 +45,5 @@ class TransactionsRepository extends Repository<Transaction> {
 
 export default TransactionsRepository;
 
-//Parei em 52 min 00 seg
+//Parei em 52 min 00 segS
+
